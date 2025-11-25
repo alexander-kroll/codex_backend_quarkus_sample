@@ -2,7 +2,6 @@ package com.codex.hero;
 
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.http.ContentType;
-import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.*;
 
 import static io.restassured.RestAssured.given;

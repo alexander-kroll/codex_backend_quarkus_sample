@@ -26,6 +26,7 @@ public class Fight extends PanacheEntity {
     @Column(nullable = false, length = 50)
     public String villainName;
 
+    @NotNull
     @Column(nullable = false)
     public Long winnerId;
 
